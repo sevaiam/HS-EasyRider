@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: The number of subsequences of elements we want the function to return.
+- text: The length of subsequences of elements from the given iterable.
+- text: The number of iterable objects we pass to the function.
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15389#comment
+status: Solved
+record: -1

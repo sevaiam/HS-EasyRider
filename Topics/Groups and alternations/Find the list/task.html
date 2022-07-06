@@ -1,0 +1,30 @@
+<h2>Find the list</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Let's try to write a template that matches a numbered list. Here are examples of a numbered list in this task:</p> 
+  <p><code class="java">1) Curiosity 2) Perseverance 3) ?</code></p> 
+  <p><code class="java">1) cabbage 2) carrot 3) apple 4) oranges</code></p> 
+  <p>Note that:</p> 
+  <ul> 
+   <li>your template must match the whole list, not just one item</li> 
+   <li>there can be any number of items in the list. The number of items in the list may vary. </li> 
+   <li>your template shouldn't match the text preceding the list</li> 
+   <li>one whitespace separates one number (for example, <code class="java">2)</code>) from the text on both sides.</li> 
+   <li>however, there's no whitespace before the number of the first item (i.e., no whitespace before <code class="java">1)</code>)</li> 
+   <li>also, there's no space after the last item on the list.</li> 
+  </ul> 
+  <p>Put your regex in the <code class="java">template</code> variable.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-913').style.display='inline'"> Hint </button> </p>
+  <div id="hint-913" style="display:none;">
+   If you don't come up with a valid regex immediately, don't get sad! It may be not as easy as it looks. Open the 
+   <a target="_blank" href="https://regex101.com/" rel="noopener noreferrer nofollow">website</a> allowing you to check your expression online, copy the example of a numbered list and try to match it with your expression.
+   <p></p> 
+   <p>Don't forget to escape special symbols such as <code class="java">)</code> when they should be interpreted literally. Make use of the plus <code class="java">+</code> quantifier. If your expression doesn't match the last item of the list, try to add to the end of the regex a separate part matching the last item specifically.</p>
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>

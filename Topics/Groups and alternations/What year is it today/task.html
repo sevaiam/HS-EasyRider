@@ -1,0 +1,20 @@
+<h2>What year is it today?</h2>
+<html>
+ <head></head>
+ <body>
+  <p>Now, consider a template for a string containing a date. Let's agree to accept the following formats of date:</p> 
+  <ul> 
+   <li>D(D)/M(M)/YYYY</li> 
+   <li>D(D).M(M).YYYY</li> 
+  </ul> 
+  <p>DD and MM can consist either of two or one digits, YYYY is always a four-digit expression. The digits should be separated either by a slash character <code class="java">/</code> or by a dot <code class="java">.</code> . One date can contain only slashes or only dots as separators. </p> 
+  <p>After writing the template, take a string from the input, and compare it against the template. If there's a match (the result of <code class="java">match()</code> is not <code class="java">None</code>), output the year mentioned in the string. If there's no match, output <code class="java">None</code>.</p> 
+  <p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-781').style.display='inline'"> Hint </button> </p>
+  <div id="hint-781" style="display:none;">
+   Examples of valid dates: 02.12.1997, 02/03/1965, 1.01.2000.
+   <p></p> 
+   <p>Examples of invalid dates: 10.100.2105, 15.03.19114.</p>
+  </div>
+  <p></p>
+ </body>
+</html><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
